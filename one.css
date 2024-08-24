@@ -1,0 +1,97 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color:aliceblue;
+    letter-spacing: 1px;
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+}
+.nav{
+    list-style: none;
+    display:inline;
+
+}
+li{
+    display:inline;
+    padding:0px 30px;
+    font-weight: bolder;
+}
+.one{
+    display:flex;
+    justify-content: space-between;
+    padding:20px 50px;
+}
+body{
+    background-image: url(home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.two{
+    color:aliceblue;
+  
+    display:flex;
+   justify-content: center;
+  position:relative;
+ top:200px;
+ letter-spacing: 1px;
+ padding-left:200px;
+  
+}
+.two1{
+    position:relative;
+    left:100px;
+}
+
+.two2{
+    position:relative;
+    top:80px;
+    right:300px;
+    font-style: oblique;
+    font-size: larger;
+   
+}
+.button{
+  display:flex;
+ 
+  justify-content: space-around;
+  width:300px; 
+  padding:300px 550px;
+
+ 
+}
+.but1{ border:5px solid rgba(135, 207, 235, 0.758);
+border-radius: 15px;
+padding:10px;
+background-color: rgba(0, 0, 0, 0.601);
+}
+.but2{ border:5px solid rgba(135, 207, 235, 0.758);
+    border-radius: 15px;
+padding:10px;
+background-color: rgba(0, 0, 0, 0.601);}
+
+.nav li a{
+    position:relative;
+    gap:10px;
+}
+.link:after{
+    content:"";
+position:absolute;
+height:2px;
+
+width:0%;
+background-color:turquoise;
+
+left:0px;
+bottom:-10px;
+transition:0.5s linear;
+}  
+.link:hover:after{
+    width:100%;
+
+}
+
